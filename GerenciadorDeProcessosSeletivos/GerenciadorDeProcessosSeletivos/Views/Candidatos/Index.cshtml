@@ -1,0 +1,213 @@
+﻿@model IEnumerable<GerenciadorDeProcessosSeletivos.Models.Candidato>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AnalistaRH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PretSalarial)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FonteRecrutamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Disponibilidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeCandidato)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sexo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocalNascimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadoCivil)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Raca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Celular)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataExpedicao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrgaoEmissor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeMae)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomePai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PIS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PossuiDependente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuantDependente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrabalhouResource)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OndeTrabalhou)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Idioma)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NivelIdioma)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DependenteId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dependente)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnalistaRH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataCadastro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cargo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PretSalarial)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FonteRecrutamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Disponibilidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeCandidato)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sexo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Endereco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataNascimento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocalNascimento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoCivil)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Raca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Celular)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataExpedicao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrgaoEmissor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeMae)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomePai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PIS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PossuiDependente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuantDependente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrabalhouResource)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OndeTrabalhou)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Idioma)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NivelIdioma)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DependenteId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dependente)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CandidatoId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CandidatoId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CandidatoId })
+        </td>
+    </tr>
+}
+
+</table>

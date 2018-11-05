@@ -1,0 +1,266 @@
+﻿@model GerenciadorDeProcessosSeletivos.Models.Candidato
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Candidato</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AnalistaRH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnalistaRH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cargo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PretSalarial)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PretSalarial)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FonteRecrutamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FonteRecrutamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Disponibilidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disponibilidade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeCandidato)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeCandidato)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sexo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sexo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataNascimento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocalNascimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocalNascimento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadoCivil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadoCivil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Raca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Raca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataExpedicao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataExpedicao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrgaoEmissor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrgaoEmissor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeMae)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeMae)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomePai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomePai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PIS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PIS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PossuiDependente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PossuiDependente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantDependente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantDependente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrabalhouResource)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrabalhouResource)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OndeTrabalhou)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OndeTrabalhou)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Idioma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Idioma)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NivelIdioma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NivelIdioma)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DependenteId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DependenteId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dependente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dependente)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CandidatoId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
