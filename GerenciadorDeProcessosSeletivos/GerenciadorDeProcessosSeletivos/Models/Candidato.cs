@@ -37,9 +37,8 @@ namespace GerenciadorDeProcessosSeletivos.Models
         public int QuantDependente { get; set; }
         public bool TrabalhouResource { get; set; }
         public string OndeTrabalhou { get; set; }
-        public TipoIdioma Idioma { get; set; }
-        public NivelIdioma NivelIdioma { get; set; }
-        public int DependenteId { get; set; }
-        public Dependente Dependente { get; set; }
+        public List<IdiomaConhecido> IdiomasConhecidos { get; set; }
+        public List<Dependente> Dependentes { get; set; }
+        public TipoDependente Dependente { get; set; }
     }
 }

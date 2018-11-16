@@ -7,6 +7,6 @@ namespace GerenciadorDeProcessosSeletivos.Models
 {
     public enum Disponibilidade
     {
-        Manhã, Tarde, Noite
+        Manha, Tarde, Noite
     }
 }

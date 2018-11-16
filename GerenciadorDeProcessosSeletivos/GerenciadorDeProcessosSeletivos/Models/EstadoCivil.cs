@@ -7,6 +7,6 @@ namespace GerenciadorDeProcessosSeletivos.Models
 {
     public enum EstadoCivil
     {
-        Solteiro, Casado, Viúvo, Divorciado, UniãoEstavel
+        Solteiro, Casado, Viúvo, Divorciado, UniaoEstavel
     }
 }

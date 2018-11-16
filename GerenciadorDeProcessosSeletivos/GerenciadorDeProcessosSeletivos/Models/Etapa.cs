@@ -7,9 +7,8 @@ namespace GerenciadorDeProcessosSeletivos.Models
 {
     public class Etapa
     {
+        public int EtapaId { get; set; }
         public TipoEtapa Tipo { get; set; }
-        public List<ResultadoEtapa> ResultadosEtapa { get; set;}
-
-
+        public List<NotaCandidato> NotasCandidato { get; set;}
     }
 }

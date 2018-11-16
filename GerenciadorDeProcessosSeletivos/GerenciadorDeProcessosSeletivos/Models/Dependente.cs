@@ -5,8 +5,13 @@ using System.Web;
 
 namespace GerenciadorDeProcessosSeletivos.Models
 {
-    public enum Dependente
+    public class Dependente
     {
-        Mãe, Pai, Filhos, Irmãos, Avós, Tios, Primos, Subrinhos
+        public int DependenteId { get; set; }
+        public TipoDependente TipoDependente { get; set; }
+        public string Nome { get; set; }
+        public DateTime DataNascimento { get; set; }
+        public int Cpf { get; set; }
+        public bool Irrf { get; set; }
     }
 }

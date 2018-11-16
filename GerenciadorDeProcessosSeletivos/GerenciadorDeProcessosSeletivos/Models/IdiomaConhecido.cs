@@ -7,6 +7,7 @@ namespace GerenciadorDeProcessosSeletivos.Models
 {
     public class IdiomaConhecido
     {
+        public int IdiomaConhecidoId { get; set; }
         public TipoIdioma Tipo { get; set; }
         public NivelIdioma Nivel { get; set; }
 
